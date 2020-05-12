@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "883973030817",
+    "firebase_url": "https://imessage-chat-app.firebaseio.com",
+    "project_id": "imessage-chat-app",
+    "storage_bucket": "imessage-chat-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:883973030817:android:3971fd5c715fd95a9fc1e0",
+        "android_client_info": {
+          "package_name": "com.example.imessagechat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "883973030817-rp6kg6f12cpp144l6rsdqgl0ov39du2r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.imessagechat",
+            "certificate_hash": "7963383ec8b940c2b1951ee3847b5a0359a3aa8b"
+          }
+        },
+        {
+          "client_id": "883973030817-cak89dgi6leitrsso0ai4i13eljn1ins.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBixhVNpk841mHOStUkR7iQrCyzt37r-gg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "883973030817-cak89dgi6leitrsso0ai4i13eljn1ins.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

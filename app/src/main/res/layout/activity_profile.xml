@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.ProfileActivity"
+    android:background="@drawable/profile_activity">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/visit_profile_image"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/visit_profile_name"
+        android:src="@drawable/default_profile_picture"
+        app:civ_border_width="2dp"
+        app:civ_border_color="@color/colorPrimary"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/visit_profile_name"
+        android:layout_above="@+id/visit_profile_status"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:layout_margin="20dp"
+        android:textSize="30sp"
+        android:text="name"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/visit_profile_status"
+        android:layout_above="@+id/send_message_request_button"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:layout_margin="20dp"
+        android:textSize="25sp"
+        android:text="Status"/>
+
+
+    <Button
+        android:id="@+id/send_message_request_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/decline_message_request_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Send Message"
+        android:textAllCaps="false"
+        android:textColor="#cdd8f1"
+        android:padding="10dp"
+        android:textSize="20sp"/>
+
+
+    <Button
+        android:id="@+id/decline_message_request_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Decline request"
+        android:textAllCaps="false"
+        android:textColor="#cdd8f1"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:visibility="invisible"/>
+
+
+</RelativeLayout>
