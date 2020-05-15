@@ -2,6 +2,7 @@ apply plugin: 'com.android.application'
 apply plugin: 'com.google.gms.google-services'
 
 android {
+    buildToolsVersion "30.0.0 rc4"
     compileSdkVersion 29
     defaultConfig {
         applicationId "com.example.imessagechat"
